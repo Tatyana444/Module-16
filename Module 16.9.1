@@ -1,0 +1,10 @@
+class Trapesa:
+    def __init__(self,a,b,height):
+        self.a = a
+        self.b = b
+        self.height = height
+    def param (self):
+        return self.a, self.b, self.height, (self.height/2)*(self.a + self.b)
+
+newTrapesa = Trapesa (11,15,3)
+print ('Trapesa ', (newTrapesa.param()))
