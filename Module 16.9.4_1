@@ -1,0 +1,13 @@
+class UserDP:
+
+    def __init__(self, name, city, status):
+        self.name = name
+        self.city = city
+        self.status = status
+
+    def getname(self):
+        return self.name
+    def getcity(self):
+        return self.city
+    def getstatus(self):
+        return self.status
