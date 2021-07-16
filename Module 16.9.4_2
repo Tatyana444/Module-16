@@ -1,0 +1,5 @@
+from Module_16_9_4 import UserDP
+
+us1 = UserDP ('Иван Петров', 'Москва', 'Наставник')
+
+print (f'{us1.name}, ', f'г. {us1.city}, ', f'статус "{us1.status}"')
