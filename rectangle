@@ -11,9 +11,9 @@ class Square:
     def get_area_square (self):
         return self.a ** 2
 
-pi = 3.14
+import math
 class Circle:
     def __init__(self, r):
         self.r = r
     def get_area_circle (self):
-        return self.r ** 2 * pi
+        return self.r ** 2 * math.pi
